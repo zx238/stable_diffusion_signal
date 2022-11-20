@@ -69,6 +69,14 @@ def main():
     )
 
     parser.add_argument(
+        "--image_name",
+        type=str,
+        nargs="?",
+        help="image name",
+        default="defalut"
+    )
+
+    parser.add_argument(
         "--init-img",
         type=str,
         nargs="?",
@@ -267,9 +275,14 @@ def main():
                         if not opt.skip_save:
                             for x_sample in x_samples:
                                 x_sample = 255. * rearrange(x_sample.cpu().numpy(), 'c h w -> h w c')
-                                Image.fromarray(x_sample.astype(np.uint8)).save(
-                                    os.path.join(sample_path, f"{base_count:05}.png"))
+                                if opt.image_name != 'default':
+                                    Image.fromarray(x_sample.astype(np.uint8)).save(
+                                        os.path.join(sample_path, f"{opt.image_name}"))
+                                else:
+                                    Image.fromarray(x_sample.astype(np.uint8)).save(
+                                        os.path.join(sample_path, f"{base_count:05}.png"))
                                 base_count += 1
+                                
                         all_samples.append(x_samples)
 
                 if not opt.skip_grid:

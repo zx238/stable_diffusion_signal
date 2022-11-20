@@ -1,0 +1,17 @@
+http://localhost:8201/generator/relation/connector?type=1&formCode=PROC-9FD0714A-B1F0-4ED2-B647-CF55BF64FCF9&versionValue=2&subscribeId=26896002_0&corpId=dingce3e8344eb0d88dca1320dcb25e91351&tungeeToken=763376aaa800106ad60ac904439424d3%2310062607041046393&ddtab=true
+
+
+
+
+
+http://localhost:8201/generator/relation/dataConnector?type=1&formCode=PROC-D9F6D6D4-9870-40A9-B5A4-45241B5715D8&versionValue=2
+
+
+http://localhost:8201/generator/relation/dataConnector?type=1&formCode=PROC-9FD0714A-B1F0-4ED2-B647-CF55BF64FCF9&versionValue=2&subscribeId=26896002_0&corpId=dingce3e8344eb0d88dca1320dcb25e91351&tungeeToken=763376aaa800106ad60ac904439424d3%2310062607041046393&ddtab=true
+
+
+
+http://localhost:8201/generator/relation/dataConnector?type=1&formCode=PROC-D9F6D6D4-9870-40A9-B5A4-45241B5715D8&versionValue=2
+
+
+

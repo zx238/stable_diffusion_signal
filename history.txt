@@ -1,0 +1,178 @@
+    1  su -
+    2  exit
+    3  sudo passwd root
+    4  ls
+    5  su -
+    6  su -
+    7  ls
+    8  git clone https://github.com/TomJamesPearce/stable-diffusion-webui-api.git
+    9  cd stable-diffusion-webui-api/
+   10  ls
+   11  apt install wget git python3 python3-venv
+   12  bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
+   13  exit
+   14  history
+   15  ls
+   16  cd st
+   17  ls
+   18  su -
+   19  ls
+   20  conda create --name muse_app python=3.9 --yes
+   21  su -
+   22  ls
+   23  cd stable-diffusion-webui-api/
+   24  ls
+   25  cd ..
+   26  mkdir Code
+   27  cd Code/
+   28  git clone https://github.com/CompVis/stable-diffusion.git
+   29  cd stable-diffusion/
+   30  ls
+   31  cd ..
+   32  conda env create -f environment.yaml
+   33  cd stable-diffusion/
+   34  ls
+   35  conda env create-f environment.yaml
+   36  bash Anaconda-latest-Linux-x86_64.sh
+   37  sudo apt install conda
+   38  python3 --version
+   39  curl curl 'https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh'   -H 'authority: repo.anaconda.com'   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'accept-language: en-GB,en;q=0.9,en-US;q=0.8,ja;q=0.7,zh-TW;q=0.6,zh-CN;q=0.5,zh;q=0.4'   -H 'cookie: __cf_bm=7LgCCGRtsoH0RLlp7ZL_Asw7XIdljeg2OiT_YE4AFLw-1668509079-0-AfWLcONY2SoWV0C+qKPXPnFhOBv3bCbLAUwi0wIKt7OfN4fpYAzbowNPF/bGBge9IbJvedUXXPkIScZmTAXZ5cU=; _biz_sid=144344; _gid=GA1.2.1317935232.1668509081; _gcl_au=1.1.1354430755.1668509081; _vwo_uuid_v2=D326E7A426EF538929AB17B9252B2D47E|e5f925f061670b31201afbadb116421c; cb_user_id=null; cb_group_id=null; cb_anonymous_id=%220bb4b785-7239-47d5-a244-3ebfb643afe4%22; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_uuid=D326E7A426EF538929AB17B9252B2D47E; _vis_opt_exp_207_combi=2; _biz_uid=19e46f1b10784fe29eb9d0780afca051; _biz_flagsA=%7B%22Version%22%3A1%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%7D; _vwo_ds=3%3Aa_0%2Ct_0%3A0%241668509080%3A50.56504292%3A%3A25_0%3A3_0%2C2_0%3A0; _fbp=fb.1.1668509081074.2069091956; _biz_ABTestA=%5B1537433%2C1537433%2C1537433%2C1537433%2C1537433%2C1537433%5D; _mkto_trk=id:387-XNW-688&token:_mch-anaconda.com-1668509081113-58551; _hjFirstSeen=1; _hjSession_604193=eyJpZCI6IjIwOWJiOWVkLTFhZjItNDUwMy05MDgzLWVhNWJhZjNhZjAyMyIsImNyZWF0ZWQiOjE2Njg1MDkwODE1MTUsImluU2FtcGxlIjpmYWxzZX0=; _hjAbsoluteSessionInProgress=1; _hp2_ses_props.758475466=%7B%22r%22%3A%22https%3A%2F%2Fdocs.conda.io%2Fprojects%2Fconda%2Fen%2Flatest%2Fuser-guide%2Finstall%2Flinux.html%22%2C%22ts%22%3A1668509080996%2C%22d%22%3A%22www.anaconda.com%22%2C%22h%22%3A%22%2Fproducts%2Fdistribution%22%7D; _biz_nA=9; _ga_JRBK5XLYSF=GS1.1.1668509080.1.1.1668509086.0.0.0; _hp2_id.758475466=%7B%22userId%22%3A%223906577823413077%22%2C%22pageviewId%22%3A%22258712519211817%22%2C%22sessionId%22%3A%224739357547873685%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; _biz_pendingA=%5B%5D; _vwo_sn=0%3A2%3A%3A%3A1; _hjSessionUser_604193=eyJpZCI6ImQxNDM0ZmIwLTFmNDQtNWYyMC1hY2IzLWU3YWEwYjA1MTM3NSIsImNyZWF0ZWQiOjE2Njg1MDkwODExNjAsImV4aXN0aW5nIjp0cnVlfQ==; _ga=GA1.2.1451731533.1668509081'   -H 'referer: https://docs.conda.io/en/latest/miniconda.html'   -H 'sec-ch-ua: "Microsoft Edge";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'   -H 'sec-ch-ua-mobile: ?0'   -H 'sec-ch-ua-platform: "macOS"'   -H 'sec-fetch-dest: document'   -H 'sec-fetch-mode: navigate'   -H 'sec-fetch-site: cross-site'   -H 'sec-fetch-user: ?1'   -H 'upgrade-insecure-requests: 1'   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42'   --compressed
+   40  1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2cZ1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;21;2c1;2c1;2c1;2c1;2c
+   41  ls
+   42  vim environment.yaml
+   43  cd ~
+   44  ls
+   45  cd Code/
+   46  wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
+   47  bash Miniconda3-latest-Linux-x86_64.sh 
+   48  ls
+   49  cd stable-diffusion/
+   50  ls
+   51  conda activate ldm
+   52  conda --version
+   53  cd Code/
+   54  cd stable-diffusion/
+   55  conda activate ldm
+   56  conda env create -f environment.yaml
+   57  cd Code/stable-diffusion/
+   58  conda env create -f environment.yaml
+   59  conda config --set report_errors true
+   60  conda --version
+   61  cd ..
+   62  rm -fr stable-diffusion/
+   63  git clone https://github.com/CompVis/stable-diffusion.git
+   64  cd stable-diffusion/
+   65  conda env create -f environment.yaml
+   66  cd ..
+   67  rm -fr stable-diffusion/
+   68  git clone https://github.com/CompVis/stable-diffusion.git
+   69  cd stable-diffusion/
+   70  conda env create -f environment.yaml
+   71  htop
+   72  ls
+   73  cd ..
+   74  df
+   75  su -
+   76  cd Code/stable-diffusion/
+   77  conda env create -f environment.yaml
+   78  conda update -n base -c defaults conda
+   79  conda env create -f environment.yaml
+   80  conda activate ldm
+   81  curl 'https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt'   -H 'authority: huggingface.co'   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'accept-language: en-GB,en;q=0.9,en-US;q=0.8,ja;q=0.7,zh-TW;q=0.6,zh-CN;q=0.5,zh;q=0.4'   -H 'cookie: _ga=GA1.2.1723882450.1668208013; __stripe_mid=a3ecf3b8-ab55-4459-9a90-d4765ba039f0ab2d6a; token=PUWBtMhXCWJLJaxSPvmXjrmmDGGAKFiJmIxzFhYQeLUuoDTrVsOObrRHJMULiQwsLjIKLCTlqRKlziUwKdeltuZFZmuIstnDTxsZcwRcUIzoQzUVWRTtEupgUAZXfvyT; _gid=GA1.2.743292852.1668509666; __stripe_sid=d3d7c32c-319c-4dbe-960e-a23cf75fbd5bd87065; _gat=1'   -H 'referer: https://huggingface.co/CompVis/stable-diffusion-v-1-4-original'   -H 'sec-ch-ua: "Microsoft Edge";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'   -H 'sec-ch-ua-mobile: ?0'   -H 'sec-ch-ua-platform: "macOS"'   -H 'sec-fetch-dest: document'   -H 'sec-fetch-mode: navigate'   -H 'sec-fetch-site: same-origin'   -H 'sec-fetch-user: ?1'   -H 'upgrade-insecure-requests: 1'   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42'   --compressed -L > sd-v1-4.ckpt
+   82  ls
+   83  mv ./sd-v1-4.ckpt ./models/sd-v1-4.ckpt
+   84  ls
+   85  cd models/
+   86  ls
+   87  mv ./sd-v1-4.ckpt .//sd-v1-4.ckpt
+   88  cd ..
+   89  python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms --ckpt ./models/sd-v1-4.ckpt 
+   90  cd outputs/txt2img-samples/
+   91  ls
+   92  cd ..
+   93  rm -fr stable-diffusion-webui-api/
+   94  cd Code/
+   95  cd stable-diffusion/
+   96  clear
+   97  cd ../..
+   98  ls
+   99  cd Code/
+  100  ls
+  101  cd stable-diffusion/
+  102  ls
+  103  python scripts/txt2img.py --prompt "a photograph of an astronaut riding a duck" --plms --ckpt ./models/sd-v1-4.ckpt 
+  104  cd outputs/txt2img-samples/
+  105  ls
+  106  cd ../..
+  107  ls
+  108  cd scripts/
+  109  ls
+  110  cd ..
+  111  python scripts/txt2img.py --prompt "a photograph of an astronaut riding" --plms --ckpt ./models/sd-v1-4.ckpt 
+  112  python scripts/txt2img.py --prompt "a photograph of an astronaut riding with a chicken" --ckpt ./models/sd-v1-4.ckpt 
+  113  who
+  114  history
+  115  ls
+  116  cd Code/
+  117  ls
+  118  cd stable-diffusion/
+  119  ls
+  120  cd outputs
+  121  ls
+  122  cd e
+  123  cd txt2img-samples/
+  124  ls
+  125  ls -l
+  126  date
+  127  cd ..
+  128  ls
+  129  cd ..
+  130  ls
+  131  exit
+  132  ls
+  133  cd Code/
+  134  ls
+  135  cd stable-diffusion/
+  136  ls
+  137  history
+  138  python scripts/txt2img.py --prompt "a photograph of an astronaut riding with a chicken" --ckpt ./models/sd-v1-4.ckpt
+  139  exit
+  140  su -
+  141  who
+  142  exit
+  143  su -
+  144  su -
+  145  su -
+  146  su -
+  147  ls
+  148  pwd
+  149  ls
+  150  cd code
+  151  cd Code/
+  152  ls
+  153  pip -v
+  154  pip3 -v
+  155  pip
+  156  pip3
+  157  docker ps
+  158  ls
+  159  cd stable-diffusion/
+  160  ls
+  161  ls scripts/
+  162  python
+  163  sudo apt-get install python3-pip
+  164  pip
+  165  pip install flask
+  166  python
+  167  pip3 install flask
+  168  python3
+  169  ls
+  170  history
+  171  ls
+  172  vim environment.yaml 
+  173  ls
+  174  cd ldm/
+  175  ls
+  176  cd ..
+  177  ls
+  178  history>history.txt

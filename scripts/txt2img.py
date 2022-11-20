@@ -105,6 +105,13 @@ def main():
         help="the prompt to render"
     )
     parser.add_argument(
+        "--image_name",
+        type=str,
+        nargs="?",
+        help="image name",
+        default="defalut"
+    )
+    parser.add_argument(
         "--outdir",
         type=str,
         nargs="?",
@@ -315,7 +322,10 @@ def main():
                                 x_sample = 255. * rearrange(x_sample.cpu().numpy(), 'c h w -> h w c')
                                 img = Image.fromarray(x_sample.astype(np.uint8))
                                 img = put_watermark(img, wm_encoder)
-                                img.save(os.path.join(sample_path, f"{base_count:05}.png"))
+                                if opt.image_name != 'default':
+                                    img.save(os.path.join(sample_path, f"{opt.image_name}"))
+                                else:
+                                    img.save(os.path.join(sample_path, f"{base_count:05}.png"))
                                 base_count += 1
 
                         if not opt.skip_grid:
